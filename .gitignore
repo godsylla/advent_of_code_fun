@@ -1,0 +1,12 @@
+.cache
+.ipython
+.jupyter
+.local
+.config
+.ipynb
+.bash_history
+.DS_Store
+.gitconfig
+
+
+data*
