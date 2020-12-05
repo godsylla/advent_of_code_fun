@@ -21,7 +21,6 @@ def find_triplet (numbers: list, total:int=2020) -> float:
         try:
             subset = numbers.copy()
             subset.remove(num)
-            
             pair = find_pair (subset, diff_to_split)
             
             if len(pair) != 0:
@@ -43,12 +42,12 @@ if __name__ == '__main__':
     # Format the raw input
     numbers_1 = [int(num.strip('\n')) for num in pt1_txt_numbers]
     numbers_2 = [int(num.strip('\n')) for num in pt2_txt_numbers]
-    print(len(numbers_2))
 
     p1_pair = find_pair (numbers_1)
     print(p1_pair)
     print(f'Part 1 answer: {p1_pair[0] * p1_pair[1]}')
 
+    print()
     p2_triplet = find_triplet(numbers_2)
     print(p2_triplet)
     print(f"Part 2 answer: {p2_triplet[0] * p2_triplet[1] * p2_triplet[2]}")
