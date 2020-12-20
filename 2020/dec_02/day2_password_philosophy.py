@@ -1,8 +1,9 @@
 from collections import Counter
-import numpy as np 
+
 
 def parse_input (raw_input_lines:list) -> tuple:
-    policies = [policy_pw.split(': ')[0] for policy_pw in raw_input_lines]
+
+    policies, passwords = [policy_pw.split(': ')[0] for policy_pw in raw_input_lines]
     chars = [policy[-1] for policy in policies]
     lower = [int(policy.split(' ')[0].split('-')[0]) for policy in policies]
     upper = [int(policy.split(' ')[0].split('-')[1]) for policy in policies]
