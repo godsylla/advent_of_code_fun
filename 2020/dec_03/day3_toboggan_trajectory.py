@@ -37,5 +37,6 @@ if __name__ == "__main__":
     part1_rows = [line.rstrip('\n') for line in part1_lines]
     woods_1 = parse_input(part1_rows)
     trees_1 = traverse_the_woods(woods_1)
-    print(trees_1)
+    print(f'Part 1: Trees Encountered : {trees_1}')
 
+    
