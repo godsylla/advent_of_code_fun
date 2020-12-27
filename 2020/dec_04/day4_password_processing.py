@@ -9,9 +9,6 @@ from pprint import pprint
 
 
 def parse_passports (passport_filepath:str) -> List[dict]:
-    """
-    read in the input 
-    """
     with open (passport_filepath, 'r') as f:
         raw_input = [entry.strip() for entry in f.readlines()]
 
