@@ -39,8 +39,8 @@ if __name__ == '__main__':
     raw_input += ['']
 
     # Part 1
-    print('Part 1 \n')
-    print(find_any_yes_per_group (raw_input))
+    print('Part 1:')
+    print(find_any_yes_per_group (raw_input), '\n')
 
     # Part 2
     # Form separate groups
@@ -53,6 +53,6 @@ if __name__ == '__main__':
             groups.append(g)
             g = list()
 
-    print('Part 2: \n')
+    print('Part 2:')
     print(find_all_yes_per_group(groups))
 
