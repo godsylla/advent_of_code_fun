@@ -1,3 +1,6 @@
+"""
+Part 1 and 2 directions: https://adventofcode.com/2021/day/1
+"""
 from icecream import ic
 
 # Part 1
