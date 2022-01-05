@@ -1,6 +1,5 @@
 """
 Day 4 Part 1 Directions: https://adventofcode.com/2021/day/4
-Day 4 Part 2 Directions: 
 """
 from icecream import ic 
 import numpy as np
