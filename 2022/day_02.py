@@ -1,4 +1,4 @@
-"""Solution for 2022 Day 1 Advent of Code"""
+"""Solution for 2022 Day 2 Advent of Code"""
 
 from icecream import ic
 

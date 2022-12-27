@@ -4,17 +4,17 @@ from icecream import ic
 
 
 # Part 1 Solution ================================================
-# Find the Elf carrying the most Calories. 
+# Find the Elf carrying the most Calories.
 # How many total Calories is that Elf carrying?
 
-with open ('./day_01_input.txt', 'r', encoding='utf-8') as ipt:
+with open("./day_01_input.txt", "r", encoding="utf-8") as ipt:
     # reads in as list of strings
     parsed_lines = ipt.readlines()
 
 calories = []
 running_sum = 0
 for line in parsed_lines:
-    if line != '\n':
+    if line != "\n":
         running_sum += int(line)
     else:
         calories.append(running_sum)
